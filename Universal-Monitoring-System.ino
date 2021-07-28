@@ -1,9 +1,26 @@
 /*
- * Created Date: Friday, May 31st 2019, 2:12:24 pm
- * Author: akira
- * 
- * Copyright (c) 2019
- */
+MIT License
+
+Copyright (c) 2019
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+*/
 
 
 #include <Wire.h>
@@ -844,3 +861,18 @@ void loop() {
 
   delay(10);
 }
+
+
+/*
+Universal Monitoring System (UMS) was a research topic under Horticulture Innovation Lab Regional Center at Kasetsart University (2018-2019).
+Under the research, there are 2 models: online version, and offline version.
+
+Objective and usage Agriculture depends on environment conditions over time. 
+Monitoring the environmental condition surrounding plants, orchard or research field is the key to understanding the responce of plants to the environment. 
+UMS was designed to have several environmental sensors in one main unit. User can choose which sensors will be in the system or not by their needs and cost. 
+UMS was design to have 2 same environmental sensors to compare between 2 conditions such as outside and inside the greenhouse. 
+Data were saved in to SD card at specific interval. Online UMS helps user to monitor their crops anywhere in the world. Data also save in the sever for download at any time.
+
+This material is made possible by the generous support of the American people through the United States Agency for International Development (USAID). 
+The contents are the responsibility of the Horticulture Innovation Lab and do not necessarily reflect the views of USAID or the U.S. Government.
+*/
